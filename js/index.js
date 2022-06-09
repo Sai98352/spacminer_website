@@ -59,7 +59,7 @@ var app = new Vue({
     })
   },
   async mounted() {
-    var countDownDate = new Date('June 15, 2022 23:59:59').getTime()
+    var countDownDate = new Date('June 20, 2022 23:59:59').getTime()
 
     var x = setInterval(() => {
       var now = new Date().getTime()
